@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>I’m Sorry ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+    }
+
+    .container {
+        background: white;
+        max-width: 700px;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        text-align: center;
+    }
+
+    h1 {
+        color: #e63946;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin: 30px 0;
+    }
+
+    .card {
+        background: #fff5f7;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+    }
+
+    .card h3 {
+        color: #d62828;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background: #e63946;
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        font-size: 18px;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    button:hover {
+        background: #c1121f;
+    }
+
+    .hidden-message {
+        display: none;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #2a9d8f;
+        font-weight: 600;
+    }
+
+    footer {
+        margin-top: 25px;
+        font-size: 14px;
+        color: #555;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>I’m Really Sorry ❤️</h1>
+
+    <p>
+        I know I wasn't available today when you needed me,  
+        and I truly regret that. You matter to me more than  
+        I can explain, and hurting you was never my intention.
+    </p>
+
+    <p style="margin-top: 20px; font-style: italic; color: #666;">
+        Every moment I wasn't there, I was thinking about you.  
+        Every second I couldn't respond, my heart ached.  
+        I'm so sorry for the pain I caused.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>💌 My Mistake</h3>
+            <p>
+                I should have managed my time better  
+                and been there for you.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💖 My Feelings</h3>
+            <p>
+                You are important to me,  
+                and your emotions matter.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 My Promise</h3>
+            <p>
+                I'll try harder to be present  
+                and communicate better.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>😔 My Regret</h3>
+            <p>
+                I wish I could turn back time  
+                and be there when you needed me most.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💝 My Love</h3>
+            <p>
+                Even when I mess up,  
+                my love for you never changes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🤲 My Commitment</h3>
+            <p>
+                I promise to do better,  
+                to be better, for you.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌙 My Thoughts</h3>
+            <p>
+                You're always on my mind,  
+                even when I'm not showing it.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>✨ My Hope</h3>
+            <p>
+                I hope you can see how much  
+                I care, despite my mistakes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 My Focus</h3>
+            <p>
+                From now on, you come first.  
+                That's my priority, always.
+            </p>
+        </div>
+    </div>
+
+    <div style="margin: 30px 0; padding: 20px; background: #fff5f7; border-radius: 12px; border-left: 4px solid #e63946;">
+        <p style="font-size: 16px; margin: 0;">
+            <strong>I'm sorry for:</strong><br>
+            • Not being available when you needed me<br>
+            • Not communicating properly<br>
+            • Making you feel unimportant<br>
+            • Any hurt or disappointment I caused<br>
+            • Not prioritizing our connection
+        </p>
+    </div>
+
+    <button onclick="showMessage()">Will you forgive me?</button>
+
+    <div class="hidden-message" id="forgiveMsg">
+        Thank you for listening ❤️  
+        I'm always yours.
+    </div>
+
+    <div style="margin-top: 40px; padding: 25px; background: linear-gradient(135deg, #ffe5e8, #ffd1d6); border-radius: 12px;">
+        <h2 style="color: #d62828; margin-top: 0;">More from my heart 💕</h2>
+        <p style="font-size: 17px; line-height: 1.8;">
+            I know words alone can't fix what happened, but I want you to know that  
+            I'm genuinely sorry. Your happiness means everything to me, and seeing you  
+            hurt because of me breaks my heart. I promise to learn from this and be  
+            the person you deserve. You're worth so much more than I showed you today.
+        </p>
+        <p style="font-size: 17px; line-height: 1.8; margin-top: 15px;">
+            Please know that I'm thinking of you, I care about you deeply, and I'm  
+            committed to making things right. Your forgiveness would mean the world to me,  
+            but I understand if you need time. I'll be here, waiting, and ready to prove  
+            that I can do better.
+        </p>
+    </div>
+
+    <div style="margin-top: 30px; text-align: center;">
+        <p style="font-size: 19px; color: #e63946; font-weight: 600;">
+            I'm sorry. I love you. I'll do better. ❤️
+        </p>
+    </div>
+
+    <footer>
+        Made with honesty & care 🌸
+    </footer>
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("forgiveMsg").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
